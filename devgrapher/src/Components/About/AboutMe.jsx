@@ -1,5 +1,5 @@
 import { Suspense, lazy, useEffect } from "react";
-const LazyAboutAnim = lazy(() => import("../Animations/AboutAnim"));
+const LazyAboutAnim = lazy(() => import("../Animations/AboutAnim.jsx"));
 import StarField from "../Animations/StarField";
 import HeaderTopGoBack from "../Custom/HeaderTopGoBack";
 import {
