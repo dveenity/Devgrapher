@@ -57,7 +57,7 @@ const ContactForm = () => {
             required
             {...register("user_name", { required: "Name is required" })}
           />
-          {errors.user_name?.message}
+          <p>{errors.user_name?.message}</p>
         </div>
         <div>
           <label htmlFor="email">Your Email</label>
@@ -69,7 +69,7 @@ const ContactForm = () => {
             required
             {...register("user_email", { required: "Email is required" })}
           />
-          {errors.user_email?.message}
+          <p>{errors.user_email?.message}</p>
         </div>
         <div>
           <label htmlFor="message">Send me a Message</label>
@@ -80,7 +80,7 @@ const ContactForm = () => {
             required
             {...register("message", { required: "Message is required" })}
           />
-          {errors.message?.message}
+          <p>{errors.message?.message}</p>
         </div>
         <div>
           <input type="submit" value={submitStatus} />

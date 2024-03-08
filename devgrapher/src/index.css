@@ -283,7 +283,7 @@ p {
   right: 0;
   z-index: 5;
   height: 100vh;
-  height: 100svh;
+  height: 100dvh;
   width: 60vw;
   max-width: 300px;
   padding: 1rem;
@@ -318,7 +318,7 @@ p {
 
     li {
       a {
-        color: blue;
+        color: var(--white);
         padding: 0.5rem 1rem;
         display: flex;
         align-items: center;
@@ -655,6 +655,7 @@ p {
 /* STYLING ABOUT ME SECTION */
 .abutMe {
   background-color: var(--hero-bg);
+  min-height: 100vh;
   display: flex;
   flex-flow: column;
   padding: 1rem;
@@ -931,6 +932,10 @@ p {
             transform: scale(1.05);
           }
         }
+      }
+
+      p {
+        color: red;
       }
     }
   }

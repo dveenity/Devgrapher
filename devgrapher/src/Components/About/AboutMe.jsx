@@ -87,20 +87,20 @@ const AboutMe = () => {
         </h2>
         <div>
           <p>
-            Hi, my name is <span>DevGrapher</span> and i am from Edo State,
-            Nigeria. I&apos;m a <span>Devops</span> with over three years of
-            experience.
+            Hi, my name is <span>Similoluwa Ogundana Emmanuel</span> and i am
+            from Ekiti State, Nigeria. I&apos;m a <span>Devops</span> and a{" "}
+            <span>Penetration Tester</span> with over two years of experience.
           </p>
           <p>
-            I have done an internship as a <span>software engineer</span> at a
-            company. I love to create and collaborate original projects with
-            amazing user interfaces. You can check out some of my work in the
-            projects section
+            I have done an internship as a <span>software engineer</span> at
+            <span> ALX Africa</span>. I love to create and collaborate original
+            projects with amazing user interfaces. You can check out some of my
+            work in the projects section
           </p>
           <p>
             I am <span>open</span> to new collaborations or work where i can
             contribute and grow. Feel free to connect with me, links are in the
-            footer.
+            header.
           </p>
         </div>
         <div>

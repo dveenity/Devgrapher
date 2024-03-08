@@ -10,7 +10,7 @@ const About = () => {
       </div>
       <div>
         <p>
-          Hi, My name is Similoluwa Ogundana Emmanuel and I am from Edo State,
+          Hi, My name is Similoluwa Ogundana Emmanuel and I am from Ekiti State,
           Nigeria.
         </p>
         <p>Click below to read more about me</p>

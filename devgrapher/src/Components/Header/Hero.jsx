@@ -19,7 +19,7 @@ const Hero = () => {
 
   const socialsOut = socials.map((social, i) => (
     <li key={i}>
-      <Link to={social.link}>{social.icon}</Link>
+      <a href={social.link}>{social.icon}</a>
     </li>
   ));
 
