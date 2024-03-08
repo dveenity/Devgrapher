@@ -55,7 +55,7 @@
 
 /*DESKTOP STYLE*/
 @media screen and (min-width: 600px) {
-  .swiper {
+  .mySwiper {
     width: 50vw;
     height: 45vh;
 
