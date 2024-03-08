@@ -595,10 +595,12 @@ p {
     height: 2px;
     width: 100%;
     display: block;
-    margin-bottom: 2rem;
   }
 
   padding: 0 0.5rem;
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
 
   > :nth-child(1) {
     display: flex;
@@ -644,6 +646,42 @@ p {
 
       &:hover {
         transform: scale(1.05);
+      }
+    }
+  }
+
+  > :nth-child(3) {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 1rem;
+    width: 100%;
+    padding: 0 1rem;
+
+    > h3 {
+      color: green;
+    }
+
+    > div {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: clamp(1.2rem, 4vw, 1.5rem);
+        background-color: var(--black);
+        color: red;
+        padding: 0.5rem 0.7rem;
+        border-radius: 1.5rem;
+        box-shadow: 1px 1px 4px var(--white);
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
       }
     }
   }
@@ -825,6 +863,7 @@ p {
   display: flex;
   flex-flow: column;
   gap: 2rem;
+  box-shadow: 1px 1px 4px var(--bs);
 
   > :nth-child(1) {
     display: flex;
@@ -912,7 +951,6 @@ p {
           width: fit-content;
           padding: 0.5rem 1rem;
           border-radius: 1rem;
-          border: 1px solid var(--slide-up-bg);
           background-color: var(--project-list-p);
           color: var(--black);
           font-size: clamp(1rem, 5vw, 1.5rem);
@@ -921,7 +959,7 @@ p {
           align-items: center;
           gap: 0.5rem;
 
-          box-shadow: 2px 2px 4px var(--bs);
+          box-shadow: 1px 1px 4px var(--bs);
           transition: 0.1 ease-in-out;
 
           &:hover {

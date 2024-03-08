@@ -1,6 +1,5 @@
 import { Suspense, lazy, useEffect } from "react";
 const LazyAboutAnim = lazy(() => import("../Animations/AboutAnim.jsx"));
-import StarField from "../Animations/StarField";
 import HeaderTopGoBack from "../Custom/HeaderTopGoBack";
 import {
   FaAws,
@@ -87,20 +86,24 @@ const AboutMe = () => {
         </h2>
         <div>
           <p>
-            Hi, my name is <span>Similoluwa Ogundana Emmanuel</span> and i am
-            from Ekiti State, Nigeria. I&apos;m a <span>Devops</span> and a{" "}
-            <span>Penetration Tester</span> with over two years of experience.
+            Greetings! I&apos; <span>Similoluwa Ogundana Emmanuel</span> hailing
+            Ekiti State, Nigeria. With a background in <span>Devops</span> and{" "}
+            <span>Penetration Testing</span>, I bring over two years of valuable
+            experience to the table.
           </p>
           <p>
-            I have done an internship as a <span>software engineer</span> at
-            <span> ALX Africa</span>. I love to create and collaborate original
-            projects with amazing user interfaces. You can check out some of my
-            work in the projects section
+            During my internship at
+            <span> ALX Africa</span>, I honed my skills as a{" "}
+            <span>software engineer</span>. My passion lies in crafting and
+            collaborating on original projects, ensuring they boast exceptional
+            user interfaces. Explore some of my noteworthy work in the projects
+            section
           </p>
           <p>
-            I am <span>open</span> to new collaborations or work where i can
-            contribute and grow. Feel free to connect with me, links are in the
-            header.
+            <span>Open</span> to fresh collaborations and opportunities that
+            allow me to contribute and cultivate my expertise, I invite you to
+            connect with me. You can find relevant links in the header.
+            Let&apos;s build something remarkable together!
           </p>
         </div>
         <div>
