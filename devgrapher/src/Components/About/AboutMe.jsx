@@ -45,7 +45,6 @@ import { Autoplay } from "swiper/modules";
 //import images
 import imageOne from "../../assets/Images/man.jpg";
 import LoadingSpin from "../Animations/LoadingSpin.jsx";
-import Night from "../Animations/Night.jsx";
 
 const AboutMe = () => {
   useEffect(() => {
@@ -81,9 +80,6 @@ const AboutMe = () => {
 
   return (
     <div className="abutMe">
-      <Night />
-      <Night />
-      <Night />
       <HeaderTopGoBack />
       <div className="aboutMe-div">
         <h2>
