@@ -1,9 +1,13 @@
 import { Typewriter } from "react-simple-typewriter";
 import StarField from "../Animations/StarField";
-import SpaceBoyAnim from "../Animations/SpaceBoyAnim";
 import { FaGithub, FaLinkedinIn, FaPhone, FaXTwitter } from "react-icons/fa6";
 import { LuMessagesSquare } from "react-icons/lu";
 import { Link } from "react-router-dom";
+
+//lazy load animation
+import { Suspense, lazy } from "react";
+import LoadingSpin from "../Animations/LoadingSpin";
+const LazySpaceBoyAnim = lazy(() => import("../Animations/SpaceBoyAnim"));
 
 const Hero = () => {
   // create array object of socials and map into list
@@ -19,11 +23,11 @@ const Hero = () => {
 
   const socialsOut = socials.map((social, i) => (
     <li key={i}>
-      <a href={social.link}>{social.icon}</a>
+      <Link to={social.link}>{social.icon}</Link>
     </li>
   ));
 
-  const mail = "similoluwaogundana114@gmail.com";
+  const mail = "mailto:similoluwaogundana114@gmail.com";
 
   return (
     <div className="hero">
@@ -61,7 +65,9 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <SpaceBoyAnim />
+        <Suspense fallback={<LoadingSpin />}>
+          <LazySpaceBoyAnim />
+        </Suspense>
       </div>
     </div>
   );
