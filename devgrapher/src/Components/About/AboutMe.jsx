@@ -150,34 +150,32 @@ const AboutMe = () => {
                 <div>
                   <img src={imageOne} alt="man" />
                   <div>
-                    <h4>Josh Bradley</h4>
-                    <h5>C.E.O</h5>
+                    <h4>Navaratnam V</h4>
+                    <h5>C.E.O Agro-entrepreneur</h5>
                   </div>
                 </div>
                 <p>
-                  Working with Similoluwa was an absolute pleasure. Their
-                  attention to detail and commitment to delivering high-quality
-                  work is commendable. They not only met but exceeded our
-                  expectations in terms of design, functionality, and
-                  responsiveness. I highly recommend Similoluwa for any web
-                  development project
+                  Thanks to Similoluwa and the team for creating such an
+                  innovative solution for the agro-processing sector. The
+                  user-friendly interface, comprehensive features, and
+                  multi-language support have made managing our farm operations
+                  much easier
                 </p>
               </SwiperSlide>
               <SwiperSlide className="swiperSlide">
                 <div>
                   <img src={imageOne} alt="man" />
                   <div>
-                    <h4>Josh James</h4>
-                    <h5>C.E.O</h5>
+                    <h4>Raj Anderson</h4>
+                    <h5>Fish Farm Manager</h5>
                   </div>
                 </div>
                 <p>
-                  Working with Similoluwa was an absolute pleasure. Their
-                  attention to detail and commitment to delivering high-quality
-                  work is commendable. They not only met but exceeded our
-                  expectations in terms of design, functionality, and
-                  responsiveness. I highly recommend Similoluwa for any web
-                  development project
+                  I highly recommend Similoluwa for anyone looking to leverage
+                  technology for social impact in the agriculture sector. The
+                  web application developed by their team has not only improved
+                  access to market information but has also fostered
+                  collaboration and knowledge-sharing among stakeholders.
                 </p>
               </SwiperSlide>
             </Swiper>
