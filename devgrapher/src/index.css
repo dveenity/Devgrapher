@@ -19,7 +19,7 @@
   --hero-bg: rgba(255, 255, 255, 0.9);
 
   /* fixed header */
-  --header-bg-color: rgb(218, 218, 218);
+  --header-bg-color: rgb(131, 131, 131);
 
   /* slide up */
   --slide-up-bg: rgb(231, 231, 255);
@@ -62,20 +62,6 @@
 
   /* contact */
   --contact-bg: rgb(0, 0, 10);
-}
-
-/* BODY */
-body > div {
-  background-color: var(--hero-bg);
-}
-
-/* BODY DESKTOP*/
-@media screen and (min-width: 600px) {
-  body > div {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-  }
 }
 
 /* GENERAL STYLES */
@@ -254,9 +240,8 @@ p {
 /* NAV BAR DESKTOP*/
 @media screen and (min-width: 600px) {
   .header {
-    /* STYLING HEADER HERO SECTION */
     .hero {
-      top: 9rem;
+      top: 7rem;
       .hero-main {
         justify-content: unset;
       }
@@ -395,14 +380,10 @@ p {
 }
 /* SLIDE UP DESKTOP*/
 @media screen and (min-width: 600px) {
-  body > div {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-  }
-
   .slide-up {
+    margin: 95vh auto 0;
     width: 80vw;
+    border: 2px solid var(--black);
   }
 }
 
