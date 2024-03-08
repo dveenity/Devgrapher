@@ -86,10 +86,10 @@ const AboutMe = () => {
         </h2>
         <div>
           <p>
-            Greetings! I&apos; <span>Similoluwa Ogundana Emmanuel</span> hailing
-            Ekiti State, Nigeria. With a background in <span>Devops</span> and{" "}
-            <span>Penetration Testing</span>, I bring over two years of valuable
-            experience to the table.
+            Greetings! I&apos;m <span>Similoluwa Ogundana Emmanuel</span>{" "}
+            hailing from Ekiti State, Nigeria. With a background in{" "}
+            <span>Devops</span> and <span>Penetration Testing</span>, I bring
+            over two years of valuable experience to the table.
           </p>
           <p>
             During my internship at

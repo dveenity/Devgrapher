@@ -74,9 +74,9 @@ const ProjectOne = () => {
                 <p>
                   <TbPointFilled />
                   As a dedicated Software Engineer, I spearheaded a
-                  transformative project titled "Enhancing Digital Inclusion in
+                  transformative project titled Enhancing Digital Inclusion in
                   Agro-processing through Agile Scrum: A Web App Solution for
-                  Small and Medium Fish Farming Enterprises in Nigeria." This
+                  Small and Medium Fish Farming Enterprises in Nigeria. This
                   collaborative endeavor, executed in tandem with a highly
                   skilled team member, aimed to revolutionize the
                   agro-processing sector by introducing a comprehensive web

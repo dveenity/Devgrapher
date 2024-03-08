@@ -31,6 +31,9 @@
   /* box shadow */
   --bs: black;
 
+  /* about */
+  --span-color: blue;
+
   /* contact */
   --contact-bg: blue;
 }
@@ -53,6 +56,9 @@
 
   /* box shadow */
   --bs: rgba(255, 255, 255, 0.6);
+
+  /* about */
+  --span-color: rgb(118, 118, 255);
 
   /* contact */
   --contact-bg: rgb(0, 0, 10);
@@ -248,9 +254,9 @@ p {
 
   img {
     display: block;
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 50%;
+    width: 3.5rem;
+    height: 3rem;
+    border-radius: 0.1rem;
   }
 
   > div {
@@ -702,7 +708,7 @@ p {
     color: var(--black);
 
     span {
-      color: blue;
+      color: var(--span-color);
       font-weight: bold;
       font-size: larger;
     }
